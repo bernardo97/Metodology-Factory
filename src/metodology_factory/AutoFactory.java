@@ -18,10 +18,10 @@ public class AutoFactory {
       if(tipovehi.equalsIgnoreCase("Automovil")){
          return new automovil();
          
-      } /*else if(shapeType.equalsIgnoreCase("RECTANGLE")){
-         return new Rectangle();
+      } else if(tipovehi.equalsIgnoreCase("Motocicleta")){
+         return new Motocicleta();
          
-      } else if(shapeType.equalsIgnoreCase("SQUARE")){
+      } /*else if(tipovehi.equalsIgnoreCase("SQUARE")){
          return new Square();
       }*/
       

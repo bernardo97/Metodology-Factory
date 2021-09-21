@@ -22,9 +22,11 @@ public class Metodology_Factory {
 
       //get an object of Circle and call its draw method.
       drawn a1 = autoFactory.getDrawn("Automovil");
+      drawn a2 = autoFactory.getDrawn("Motocicleta");
 
       //call draw method of Circle
       a1.draw();
+      a2.draw();
     }
     
 }
