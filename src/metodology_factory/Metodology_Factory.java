@@ -25,11 +25,14 @@ public class Metodology_Factory {
       drawn a2 = autoFactory.getDrawn("Motocicleta");
       
       drawn a3 = autoFactory.getDrawn("Helicoptero");
+      drawn a4 = autoFactory.getDrawn("Lockheed SR-71");
+
 
       //call draw method of Circle
       a1.draw();
       a2.draw();
       a3.draw();
+      a4.draw();
     }
     
 }

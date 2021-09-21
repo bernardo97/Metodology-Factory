@@ -24,9 +24,9 @@ public class AutoFactory {
       } else if(tipovehi.equalsIgnoreCase("Helicoptero")){
          return new Helicoptero();
          
-      } /*else if(tipovehi.equalsIgnoreCase("SQUARE")){
-         return new Square();
-      }*/
+      } else if(tipovehi.equalsIgnoreCase("Lockheed SR-71")){
+         return new Blackbird();
+      }
       
       return null;
    }
