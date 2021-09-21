@@ -21,6 +21,9 @@ public class AutoFactory {
       } else if(tipovehi.equalsIgnoreCase("Motocicleta")){
          return new Motocicleta();
          
+      } else if(tipovehi.equalsIgnoreCase("Helicoptero")){
+         return new Helicoptero();
+         
       } /*else if(tipovehi.equalsIgnoreCase("SQUARE")){
          return new Square();
       }*/
